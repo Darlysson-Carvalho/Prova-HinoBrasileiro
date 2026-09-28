@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+
+        <section>
+            <article>
+
+                <h2>Inscrição — Cantar o Hino debaixo da Chuva</h2>
+
+                <form>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </p>
+
+                    <p>
+                        <label for="data">Data de nascimento:</label>
+                        <input type="date" id="data" name="data" required>
+                    </p>
+
+                    <p>
+                        <label for="cidade">Cidade:</label>
+
+                        <input type="text" id="cidade" name="cidade" list="cidades" placeholder="Escolha sua cidade"
+                            required>
+
+                        <datalist id="cidades">
+                            <option value="João Pessoa">
+                            <option value="Recife">
+                            <option value="Rio de Janeiro">
+                            <option value="Brasília">
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <label for="experiencia">
+                            Experiência com canto:
+                        </label>
+
+                        <input type="range" id="experiencia" name="experiencia" min="0" max="10">
+                    </p>
+
+                    <p>
+                        <label for="arquivo">Envie uma foto:</label>
+
+                        <input type="file" id="arquivo" name="arquivo" required>
+                    </p>
+
+                    <p>
+                        <label for="mensagem">
+                            Por que deseja participar?
+                        </label>
+
+                        <br>
+
+                        <textarea id="mensagem" name="mensagem" placeholder="Digite sua resposta" required></textarea>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="aceite" name="aceite" required>
+
+                        <label for="aceite">
+                            Aceito participar do evento.
+                        </label>
+                    </p>
+
+                    <button type="submit">Enviar inscrição</button>
+                    <button type="reset">Limpar</button>
+
+                </form>
+
+            </article>
+
+            <aside>
+                <details>
+                    <summary>Informações da inscrição</summary>
+
+                    <p>
+                        Preencha todos os campos obrigatórios antes de
+                        enviar o formulário.
+                    </p>
+                </details>
+            </aside>
+
+        </section>
+
+    </main>
+    <figure>
+        <img width="400" height="300" src="../img/brazilian-flag-composition.jpg" alt="Bandeira do Brasil">
+        <figcaption>"Imagem da bandeira do brasil"</figcaption>
+    </figure>
+
+    <hr>
+
+    <nav>
+        <h3>Menu de Navegação</h3>
+        <ul>
+            <li><a href="index.html">Inicial</a></li>
+            <li><a href="tabela.html">Tabela</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <footer>
+        <p>Este site pertence a: Darlysson Carvalho. Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
